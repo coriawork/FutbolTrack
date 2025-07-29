@@ -1,5 +1,5 @@
 import app from './app.js';
-import { sequelize } from './database/database.js';
+import { sequelize } from './src/database/database.js';
 async function main (){
     try{
         app.listen(4000);
